@@ -1,0 +1,46 @@
+//""  '' ``
+
+const prefix = "Desenvolvedor"
+const nome = `${prefix} Caio`
+const suffix = "Junior"
+console.log(nome + " " + suffix);
+
+
+const result = 40 + 20;
+const text = `O resultado é: ${result}`
+console.log(text);
+
+const person = {
+    name: "Caio",
+    age: 20
+}
+
+console.log(JSON.stringify(person));
+
+console.log(" ");
+
+console.log(suffix[0]);
+console.log(prefix[1]);
+console.log(prefix[2]);
+console.log(suffix[1]);
+console.log(prefix[2]);
+
+console.log(" ");
+
+console.log(suffix[3]);
+console.log(prefix[2]);
+
+console.log(" ");
+
+
+suffix.includes("J") && suffix.toUpperCase() ? console.log(true) : console.log(false);
+;
+
+suffix.startsWith("Ju") ? console.log(true) : console.log(false);
+;
+
+suffix.endsWith("nior") ? console.log(true) : console.log(false);
+;
+
+const eu = "Eu sou o 'Caio'";
+console.log();
